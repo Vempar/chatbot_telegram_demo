@@ -4,8 +4,7 @@ import logging
 from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Application, ContextTypes, MessageHandler, filters, CommandHandler, CallbackQueryHandler
 from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
-from telegram_bot_calendar.base import max_date, min_date
-import components.token as token   
+from telegram_bot_calendar.base import max_date, min_date 
 import components.globals as globals
 
 telegram_token=os.getenv("TOKEN")
