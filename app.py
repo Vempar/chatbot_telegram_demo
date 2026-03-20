@@ -8,8 +8,8 @@ from telegram_bot_calendar.base import max_date, min_date
 import components.token as token   
 import components.globals as globals
 
-#telegram_token=os.getenv("TOKEN")
-telegram_token=token.telegram_token
+telegram_token=os.getenv("TOKEN")
+#telegram_token="PUT YOUR PERSONAL TOKEN HERE"
 
 
 #menu inicio con las opciones de turno
